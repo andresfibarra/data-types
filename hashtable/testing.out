@@ -1,0 +1,56 @@
+./hashtabletest < testWords
+New hashtable created at: 0x557abb9ad280
+Hashtable created with bad num_slots: (nil)
+
+Testing hashtable_insert with null table...
+
+Testing hashtable_insert with null key...
+
+Testing hashtable_insert with null item...
+
+Testing hashtable_insert with good key, good item...
+Type words here. Lines input will alternate between being keys and items:
+The hashtable created:
+{
+{}
+{(Palmer,CS50),(Key2,Item    2),(This is a key,This is an item)}
+{}
+{(Dartmouth,Hanover)}
+{}
+{}
+{}
+{(Pierson,CS10)}
+{}
+{}
+}
+
+Testing valid use of hashtable_find..
+The item for key='Dartmouth' is Hanover, stored at 0x557abb9ad260
+Testing hashtable_find providing a null set...
+Testing hashtable_find providing a null key...
+Testing hashtable_find providing an invalid key...
+
+now testing hashtable_print with a null table...
+(null)
+Now testing hashtable_print with a null file (should print nothing)
+
+Now testing hashtable_print with a null itemprint
+{
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+}
+
+
+Counting the items in the table...
+There are 5 items in set1
+
+Deleting table...
+End of hashtable_delete: 30 malloc, 31 free, 0 free(NULL), -1 net
